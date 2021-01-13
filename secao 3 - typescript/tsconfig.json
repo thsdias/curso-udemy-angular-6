@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "js",
+        "noEmitHelpers": false,
+        "typeRoots": [ // explicita que as definicoes de tipos esta neste caminho.
+            "node_modules/@types" 
+        ]
+    } 
+}
