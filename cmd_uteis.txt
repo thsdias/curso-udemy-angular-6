@@ -1,0 +1,39 @@
+
+------------------------------------------------
+- verifica versao do angular instalada:
+------------------------------------------------
+> ng -v
+
+------------------------------------------------
+- cmd gerar nova aplicacao:
+------------------------------------------------
+> ng new <nome_aplicacao>
+
+- cmd gerar nova aplicao com prefixo:
+> ng new <nome_aplicacao> --prefix=<nome_prefix>
+
+------------------------------------------------
+- instalar componentes angular:
+------------------------------------------------
+> npm install
+
+------------------------------------------------
+- startar servidor de desenvolvimento:
+------------------------------------------------
+> ng serve
+> ng serve -o 	// abre browser
+
+------------------------------------------------
+- finalizar processo:
+------------------------------------------------
+> ctrl + c
+
+------------------------------------------------
+- gerar componente:
+------------------------------------------------
+> ng generate componente 
+
+- gerar componente (forma reduzida):
+> ng g c <nome_componente> --spec=false
+
+* --spec=false: evita excesso de arquivos durante a geracao dos componentes.
